@@ -139,7 +139,7 @@ async def filter_messages(message: types.Message):
 
 
     ### l488 ###
-    if 'l488' == text:
+    if 'zxc' == text:
         await bot.send_sticker(chatId, sticker=r"CAACAgIAAxkBAAEFVOJi2RaH4kYOqZjM2NEk24R51MKqogACsR0AAo0HAAFKrK88ZFAkBBwpBA")
 
 
