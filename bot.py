@@ -1,7 +1,5 @@
 import random
 
-from aiogram.types import update
-
 import config
 import logging
 
