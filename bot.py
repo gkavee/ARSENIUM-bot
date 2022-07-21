@@ -34,7 +34,7 @@ async def filter_messages(message: types.Message):
 
     ### МЛАДЕНЕЦ ###
     if "младенец" in text or 'ребеночек' in text or 'мальчик' in text or 'ребёночек' in text or 'слыш' in text:
-        await bot.send_voice(chatId, open("sounds/дада мы тебя поняли конттент.ogg", 'rb'))
+        await bot.send_voice(chatId, open("sounds/может быть кто то младенец.ogg", 'rb'))
 
     ### НАЧАЛ И ЧЕ ###
     if "зачем ты" in text or "арсений зачем" in text or "зачем арсени" in text or "начинать" in text:
@@ -45,7 +45,7 @@ async def filter_messages(message: types.Message):
         await bot.send_voice(chatId, open("sounds/ой фаер ты такой оригинальный.ogg", 'rb'))
 
     ### ПОДДЕРЖИВАЮ ###
-    if "войн" in text or 'спецоперация' in text:
+    if "войн" in text or 'спецоперац' in text:
         await bot.send_voice(chatId, open("sounds/ПОДДЕРЖИВАЮ.ogg", 'rb'))
 
     ### ПРОСТО ГЕНИЙ ###
